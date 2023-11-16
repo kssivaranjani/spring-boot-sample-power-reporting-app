@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWorldController {
+public class PowerReportingController {
 
     @GetMapping("/hello")
     public String sendGreetings() {
-        return "Hello, World!";
+        return "Hello from Power Reporting Application";
     }
 }

@@ -9,15 +9,15 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 
 @SpringBootTest
-class HelloWorldApplicationTests {
+class PowerReportingApplicationTests {
 
     @Autowired
-    private HelloWorldController helloWorldController;
+    private PowerReportingController PowerReportingController;
 
     @Test
     void contextLoads() {
         // to ensure that controller is getting created inside the application context
-        assertNotNull(helloWorldController);
+        assertNotNull(PowerReportingController);
     }
 
 }
